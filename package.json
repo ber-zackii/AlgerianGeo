@@ -1,0 +1,28 @@
+{
+  "name": "AlgerianGeo",
+  "version": "1.0.1",
+  "description": "A JavaScript module providing data and utilities for Algerian Wilayas and Communes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "algeria",
+    "geo",
+    "wilaya",
+    "commune",
+    "data",
+    "geolocation",
+    "admin"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ber-zackii/AlgerianGeo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ber-zackii/AlgerianGeo/issues"
+  },
+  "homepage": "https://github.com/ber-zackii/AlgerianGeo#readme"
+}
