@@ -15,12 +15,10 @@
    npm install AlgerianGeo
 
 2. **Import and Use**:
- 
- ```bash
+ <br>
 const AlgerianGeo = require('AlgerianGeo');
-
 const var = AlgerianGeo.[function];
-
+</br>
 
 ## 🛠️ Functions:
 
