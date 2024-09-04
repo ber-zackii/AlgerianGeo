@@ -16,8 +16,8 @@
 
 2. **Import and Use**:
  <br>
-const AlgerianGeo = require('AlgerianGeo');
-const var = AlgerianGeo.[function];
+const AlgerianGeo = require('AlgerianGeo');<br>
+const var = AlgerianGeo.[function];<br/>
 </br>
 
 ## 🛠️ Functions:
