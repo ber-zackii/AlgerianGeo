@@ -12,11 +12,12 @@
 1. **Install the Package**:
 
    ```bash
-   npm install AlgerianGeo
+   npm install algerian-geo
+
 
 2. **Import and Use**:
  <br>
-const AlgerianGeo = require('AlgerianGeo');<br>
+const AlgerianGeo = require('algerian-geo');<br>
 const var = AlgerianGeo.[function];<br/>
 </br>
 
