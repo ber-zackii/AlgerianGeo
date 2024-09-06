@@ -1,6 +1,6 @@
 {
-  "name": "AlgerianGeo",
-  "version": "1.0.1",
+  "name": "algerian-geo",
+  "version": "1.0.2",
   "description": "A JavaScript module providing data and utilities for Algerian Wilayas and Communes.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "geolocation",
     "admin"
   ],
-  "author": "Your Name",
+  "author": "zakaria berrani",
   "license": "ISC",
   "repository": {
     "type": "git",
