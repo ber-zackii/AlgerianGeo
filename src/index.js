@@ -6,26 +6,28 @@ const wilayaMap = new Map(wilayas.map((wilaya) => [wilaya.id, wilaya]));
 const communeMap = new Map(communes.map((commune) => [commune.id, commune]));
 
 // Get Wilaya by ID
-export const getWilayaById = (wilayaId) => wilayaMap.get(wilayaId) || null;
+export const getWilayaById = (wilayaId) =>
+  wilayaMap.get(String(wilayaId)) || null;
 
 // Get Commune by ID
-export const getCommuneById = (communeId) => communeMap.get(communeId) || null;
+export const getCommuneById = (communeId) =>
+  communeMap.get(String(communeId)) || null;
 
 // Get Communes by Wilaya ID
 export const getCommunesByWilaya = (wilayaId) =>
-  communes.filter((commune) => commune.wilaya_id === wilayaId);
+  communes.filter((commune) => commune.wilaya_id === String(wilayaId));
 
 // Get Wilaya Name by ID
 export const getWilayaNameById = (wilayaId) =>
-  wilayaMap.get(wilayaId)?.name || null;
+  wilayaMap.get(String(wilayaId))?.name || null;
 
 // Get Commune Name by ID
 export const getCommuneNameById = (communeId) =>
-  communeMap.get(communeId)?.name || null;
+  communeMap.get(String(communeId))?.name || null;
 
 // Get Wilaya by Code
 export const getWilayaByCode = (code) =>
-  wilayas.find((wilaya) => wilaya.code === code) || null;
+  wilayas.find((wilaya) => wilaya.code === String(code)) || null;
 
 // Get Communes by Wilaya Code
 export const getCommunesByWilayaCode = (code) => {
@@ -53,7 +55,7 @@ export const getWilayasByName = (name) =>
 
 // Get Commune by Postal Code
 export const getCommuneByPostCode = (postCode) =>
-  communes.find((commune) => commune.post_code === postCode) || null;
+  communes.find((commune) => commune.post_code === String(postCode)) || null;
 
 // Get Wilaya by Postal Code
 export const getWilayaByPostCode = (postCode) => {
