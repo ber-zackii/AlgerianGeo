@@ -22,6 +22,13 @@ const AlgerianGeo = require('algerian-geo');
 const var = AlgerianGeo.[function];
 
 
+
+2. **Import and Use**:
+ <br>
+const AlgerianGeo = require('algerian-geo');<br>
+const var = AlgerianGeo.[function];<br/>
+</br>
+
 ## 🛠️ Functions:
 
 - **`getWilayaById(id)`**: Returns the Wilaya object for the given ID.

@@ -1,10 +1,12 @@
 {
   "name": "algerian-geo",
-  "version": "1.0.2",
-  "description": "A JavaScript module providing data and utilities for Algerian Wilayas and Communes.",
-  "main": "index.js",
+  "version": "1.0.5",
+  "description": "A JavaScript module offering comprehensive data and utilities for managing Algerian administrative regions, including Wilayas and Communes, with geolocation capabilities.",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "module": "dist/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build"
   },
   "keywords": [
     "algeria",
@@ -13,10 +15,10 @@
     "commune",
     "data",
     "geolocation",
-    "admin"
+    "administrative"
   ],
-  "author": "zakaria berrani",
-  "license": "ISC",
+  "author": "Your Name",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ber-zackii/AlgerianGeo.git"
@@ -24,5 +26,19 @@
   "bugs": {
     "url": "https://github.com/ber-zackii/AlgerianGeo/issues"
   },
-  "homepage": "https://github.com/ber-zackii/AlgerianGeo#readme"
+  "homepage": "https://github.com/ber-zackii/AlgerianGeo#readme",
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2",
+    "terser": "^5.31.6",
+    "vite": "^5.4.3"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "dependencies": {
+    "algerian-geo": "^1.0.5"
+  }
 }
