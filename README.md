@@ -17,8 +17,10 @@
 
 2. **Import and Use**:
  <br>
-const AlgerianGeo = require('algerian-geo');<br>
-const var = AlgerianGeo.[function];<br/>
+ ```bash
+import * as AlgerianGeo from 'algerian-geo';
+const var = AlgerianGeo.[function];
+```
 </br>
 
 ## 🛠️ Functions:
