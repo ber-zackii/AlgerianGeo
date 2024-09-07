@@ -1,12 +1,17 @@
 {
   "name": "algerian-geo",
+<<<<<<< HEAD
   "version": "1.0.5",
+=======
+  "version": "1.0.4",
+>>>>>>> df3bc13efee771a8894165afe18e83871bdcaffe
   "description": "A JavaScript module offering comprehensive data and utilities for managing Algerian administrative regions, including Wilayas and Communes, with geolocation capabilities.",
   "main": "dist/index.cjs",
   "type": "module",
   "module": "dist/index.mjs",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "algeria",
