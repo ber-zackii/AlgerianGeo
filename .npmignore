@@ -35,7 +35,5 @@ Temporary Items
 node_modules/
 jspm_packages/
 
-# ignore src
 
-src/**/*
 
