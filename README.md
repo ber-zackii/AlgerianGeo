@@ -16,12 +16,11 @@
 
 
 2. **Import and Use**:
- <br>
  ```bash
 import * as AlgerianGeo from 'algerian-geo';
 const var = AlgerianGeo.[function];
 ```
-</br>
+
 
 ## 🛠️ Functions:
 
